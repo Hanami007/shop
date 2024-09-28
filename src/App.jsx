@@ -46,7 +46,7 @@ export default function ShoppingPage() {
         </div>
       </main>
       <footer className="bg-gray-800 p-4 text-center text-white mt-10">
-        &copy; Best Website Award.
+        &copy; Best MEMEsite Award.
       </footer>
 
       <Dialog open={open} onClose={setOpen} className="relative z-10">
@@ -65,7 +65,7 @@ export default function ShoppingPage() {
                 <div className="flex h-full flex-col overflow-y-scroll bg-white shadow-xl">
                   <div className="flex-1 overflow-y-auto px-4 py-6 sm:px-6">
                     <div className="flex items-start justify-between">
-                      <DialogTitle className="text-lg font-medium text-gray-900">Shopping cart</DialogTitle>
+                      <DialogTitle className="text-lg font-medium text-gray-900">ตะกร้า</DialogTitle>
                       <div className="ml-3 flex h-7 items-center">
                         <button
                           type="button"
@@ -103,7 +103,7 @@ export default function ShoppingPage() {
                                 <div className="flex flex-1 items-end justify-between text-sm">
                                   <p className="text-gray-500">Qty 1</p>
                                   <div className="flex">
-                                    <button type="button" className="font-medium text-indigo-600 hover:text-indigo-500">
+                                    <button type="button" className="font-medium text-red-600 hover:text-red-500">
                                       Remove
                                     </button>
                                   </div>
@@ -126,8 +126,8 @@ export default function ShoppingPage() {
                     <p className="mt-0.5 text-sm text-gray-500">Shipping and taxes calculated at checkout.</p>
                     <div className="mt-6">
                       <a
-                        href="#"
-                        className="flex items-center justify-center rounded-md border border-transparent bg-indigo-600 px-6 py-3 text-base font-medium text-white shadow-sm hover:bg-indigo-700"
+                        href="/"
+                        className="flex items-center justify-center rounded-md border border-transparent bg-red-500 px-6 py-3 text-base font-medium text-white shadow-sm hover:bg-red-300"
                       >
                         Checkout
                       </a>
